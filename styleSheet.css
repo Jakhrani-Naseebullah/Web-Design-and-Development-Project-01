@@ -1,0 +1,639 @@
+body{
+    margin: 0;
+}
+
+                              /* Header starts here */
+
+header{
+  background-color: #561868;
+  width: 100%;
+  height: 580px;
+  position: relative;
+  background-image: linear-gradient(to bottom right, rgb(86, 24, 104, 0.4) , rgb(135, 48, 94, 0.9));
+    
+}
+
+.nav-wrapper1{
+    overflow: hidden;
+    width: 100%;
+    height: 75px;
+}
+
+.compLogo{
+  float: left;
+  width: 10%;
+  height: 44px;
+  margin: 12px 0px 0px 20px;
+}
+.compLogo img{
+  width: 30%;
+  float: left;
+  height: 44px;
+  transition: all 0.5s cubic-bezier(0.75, -0.3, 0.31, 2);
+}
+
+.compLogo p{
+  color:white;
+  float: left;
+  margin: 5px 0px 0px 9px;
+}
+.compLogo a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+
+.menu {
+  float: left;
+  width: 36.3%;
+  height: 44px;
+  margin: 12px 0px 0px 520px;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+  }
+  
+  .menu ul li {
+    float: left;
+  }
+  
+  li a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    border: 2px solid #9A74A4;
+  }
+  
+  
+
+  .horiLine1{
+    border-left: 1px solid white;
+    height: 30px;
+    float: left;
+    margin: 20px 0px 0px 11px;
+  }
+
+  .login{
+    float: left;
+    margin: 13px 0px 0px 10px;
+    width: 4.43%;
+    padding: 12px 4px 12px 4px;
+  }
+
+
+  .login:hover{
+    border: 2px solid #9A74A4;
+  }
+
+  .login a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .signUp{
+    float: left;
+    margin: 13px 0px 0px 7px;
+    width: 5.1%;
+    height: 40px;
+    background-color: #f5f5f5;
+    border-radius: 3px;
+
+  }
+
+  .signUp:hover{
+    background-color: white;
+  }
+  .signUp a{
+    text-decoration: none;
+    color: #3D3D3D;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    float: left;
+    margin: 10px 0px 0px 6px;
+  }
+
+  .banner {
+    width: 90%;
+    height: 345px;
+    overflow: hidden;
+    margin: 0 auto;
+
+  }
+
+  .bannerTxt{
+    width: 49%;
+    height: 400px;
+    float: left;
+    margin: 21px 0px 0px 9px;
+  }
+
+  .bannerTxt h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 45px;
+    color: white;
+  }
+
+  .bannerTxt .p01{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size: 16px;
+    margin-left: 19px;
+    color: white;
+  }
+  .bannerbtn1{
+    padding: 18px 30px 18px 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #340E3F;
+    margin:13px 0px 0px 15px;
+    border-radius: 5px;
+    border: white;
+  }
+
+  .bannerbtn1:hover{
+    background-color: white;
+  }
+
+  .bannerbtn2{
+    padding: 18px 30px 18px 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin:13px 0px 0px 15px;
+    border-radius: 5px;
+    border: white;
+    background-color: rgba(255,255,255,0.2);
+    color: white;
+  }
+  
+  .bannerbtn2:hover{
+    background-color: #8A5E96;
+  }
+  .bannerbtn3{
+    width: 43%;
+    height: 30px;
+    margin: 18px 0px 0px 16px;
+    border-radius: 16px;
+    background: rgba(69,19,83,0.8);
+  }
+
+  .bannerbtn3:hover{
+    background-color: #340E3F;
+  }
+
+  .bannerbtn3 a{
+    text-decoration: none;
+    color: #593A62;
+  }
+
+  .bannerbtn3new{
+    background-color: white;
+    width: 17%;
+    height: 20px;
+    margin: 4px 0px 0px 4px;
+    border-radius: 20px;
+    float: left;
+    overflow: hidden;
+  }
+
+  .bannerbtn3new .p02{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    margin: 1px 0px 0px 0px;
+  }
+
+  .bannerbtn3 h6{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    margin: 6px 0px 0px 6px;
+    color: white;
+    float: left;
+  }
+
+
+  .bannerVidwrap{
+    width: 49%;
+    height: 400px;
+    float: left;
+    margin: 21px 0px 0px 9px;
+  }
+
+  .bannerVid{
+    width: 88%;
+    height: 320px;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+  .vidbar{
+    border: 1px solid white;
+    border-radius: 4px;
+  }
+  .webHeaderDot{
+    background-color: #E8E8E8;
+    width: 100%;
+    height: 20px;
+    border-radius: 4px 4px 0px 0px;
+  }
+.webHeaderDot img{
+  height: 20px;
+}
+
+.bannervideo{
+
+  width: 99.99%;
+  height: 296px;
+  margin: 0 auto;
+  background: white;
+}
+
+.bannerbg{
+    width: 100%;
+    height: 163px;
+}
+
+                                /* Header ends here */
+
+
+
+
+                                /* Main start here */
+
+
+                                /* First Section Start */
+.meetfedit{
+    width: 100%;
+    height: 377px;
+    padding: 240px 0px 50px 0px;
+  
+}
+
+.meetwraper{
+  width: 100%;
+  height: 379px;
+  overflow: hidden;
+}
+
+.meetTxt{
+    width: 50%;
+    height: 314px;
+    padding: 32px;
+    float: left;
+}
+
+.meetTxt h2{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+}
+
+.meetTxt p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+.meetvid{
+    width: 44.9%;
+    height: 379px;
+    float: left;
+}
+
+.meetvid video{
+  border-radius: 6px;
+    box-shadow: 0 6px 20px rgb(0 0 0 / 15%), 0 2px 6px rgb(0 0 0 / 20%);
+}
+
+                            /* First Section End */
+
+
+                            /* Second Section Start */
+
+  .present{
+    width: 100%;
+    height: 377px;
+    padding: 50px 0px 50px 0px;
+    background-image: linear-gradient(to bottom right, #fff 2%, #F5F5F5 98%);
+}
+  .workBetter{
+    width: 100%;
+    height: 600px;
+    padding: 50px 0px 50px 0px;
+  }
+
+  .workwraper{
+    width: 100%;
+    height: 649px;
+    overflow: hidden;
+  }
+  
+  .workBetterTxt{
+    width: 50.2%;
+    height: 566px;
+    padding: 32px;
+    float: left;
+  }
+
+  .workBetterTxt h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+  }
+  
+  .workBetterTxt p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    line-height: 1.6;
+  }
+  
+
+  .workBettervid{
+    width: 44.9%;
+    height: 379px;
+    float: left;
+    margin-top: 120px;
+  }
+
+  .workBettervid video {
+    border-radius: 6px;
+    box-shadow: 0 6px 20px rgb(0 0 0 / 15%), 0 2px 6px rgb(0 0 0 / 20%);
+}
+
+.workBetterTxt ul{
+  font-size: 26px;
+    line-height: 1.6;
+    color: #444;
+}
+
+.workBetterbtn{
+  width: 63%;
+  height: 49px;
+  background-color: #1baee1;
+  border-radius: 4px;
+}
+
+.workBetterbtn:hover{
+  background-color: #46BFE9;
+}
+
+.workBetterbtn a{
+  font-family: "Inter", Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #fff;
+    margin: 14px 0px 0px 57px;
+    text-decoration: none;
+    float: left;
+}
+
+
+                          /* Second Section End */
+
+
+
+                          /* Third Section Start */
+
+.developer{
+  width: 100%;
+  height: 600px;
+  padding: 50px 0px 50px 0px;
+  background-color: #F5F5F5;
+}
+
+.divwraper{
+  width: 100%;
+  height: 649px;
+  overflow: hidden;
+}
+
+.divTxt{
+  width: 50.2%;
+  height: 566px;
+  padding: 32px;
+  float: left;
+}
+
+.divTxt h2{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  margin: 59px 0px 0px 15px;
+}
+
+.divTxt p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  line-height: 1.6;
+  margin-left: 18px;
+}
+
+
+.divvid{
+  width: 44.9%;
+  height: 379px;
+  float: left;
+  margin-top: 120px;
+}
+
+.divvid video {
+  border-radius: 6px;
+  box-shadow: 0 6px 20px rgb(0 0 0 / 15%), 0 2px 6px rgb(0 0 0 / 20%);
+}
+
+.divTxt ul{
+font-size: 26px;
+  line-height: 1.6;
+  color: #444;
+}
+
+.divbtn{
+  width: 45%;
+  height: 49px;
+  background-color: #1baee1;
+  border-radius: 4px;
+  margin-left: 20px;
+}
+
+.divbtn:hover{
+  background-color: #46BFE9;
+}
+
+.divbtn a{
+font-family: "Inter", Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  color: #fff;
+  margin: 14px 0px 0px 30px;
+  text-decoration: none;
+  float: left;
+}
+
+                      /* Third Section End */
+
+
+                      /* Fourth Section Start */
+
+.join{
+  width: 100%;
+  height: 600px;
+  padding: 50px 0px 50px 0px;
+}
+
+.joinwraper{
+  width: 100%;
+  height: 649px;
+  overflow: hidden;
+}
+
+.joinTxt{
+  width: 50.2%;
+  height: 566px;
+  padding: 32px;
+  float: left;
+}
+
+.joinTxt h2{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+}
+
+.joinTxt p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  line-height: 1.6;
+}
+
+
+.joinvid{
+  width: 44.9%;
+  height: 379px;
+  float: left;
+  margin-top: 26px;
+}
+
+.joinvid video {
+  border-radius: 6px;
+  box-shadow: 0 6px 20px rgb(0 0 0 / 15%), 0 2px 6px rgb(0 0 0 / 20%);
+}
+
+.joinTxt ul{
+font-size: 26px;
+  line-height: 1.6;
+  color: #444;
+}
+
+.joinbtn{
+width: 23%;
+height: 55px;
+background-color: #1baee1;
+border-radius: 4px;
+}
+
+.joinbtn:hover{
+background-color: #46BFE9;
+}
+
+.joinbtn a{
+font-family: "Inter", Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  color: #fff;
+  margin: 16px 0px 0px 23px;
+  text-decoration: none;
+  float: left;
+}
+
+                      /* Fourth Section End */
+
+
+                      /* Footer Start */
+.footer {
+  width: 100%;
+  height: 350px;
+}
+.footer .col {
+  width: 190px;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.footer .col h2 {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 17px;
+  padding: 10px 0;
+  color: #444;
+  text-transform: uppercase;
+}
+.footer .col ul {
+  list-style-type: none;
+  padding: 0;
+}
+.footer .col ul li {
+  color: #666;
+  font-size: 12px;
+  padding: 5px 3px;
+  margin-bottom: 2px;
+}
+.address ul li {
+  display: inline-block;
+  padding-right: 5px !important;
+}
+
+.footer .col ul li:hover {
+  cursor: pointer;
+  border:1px solid #888888;
+}
+.clearfix {
+  clear: both;
+}
+
+.legal{
+  font-family: "Inter", Helvetica, sans-serif;
+  font-size: 13px;
+  color: #666;
+  text-decoration: none;
+  margin-left:173px;
+}
+.legal a{
+  font-family: "Inter", Helvetica, sans-serif;
+  font-size: 13px;
+  color: #666;
+  text-decoration: none;
+
+}
+.legal a:hover{
+  border:1px solid #888888;
+}
+
+
+                        /* Footer End */
+
+
